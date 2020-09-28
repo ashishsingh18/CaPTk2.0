@@ -68,7 +68,7 @@
  • Provide the necessary information.
  • Specify the directory where your subject data is located.
  • Specify an output directory for the results.
- • Click &quot;Run Survival Prediction&quot;.
+ • Click &quot;Run PseudoProgression Estimation&quot;.
 </string>
         </property>
         <property name="wordWrap">
@@ -200,7 +200,7 @@
    <item>
     <widget class="QPushButton" name="pushButtonRun">
      <property name="text">
-      <string>Run Survival Prediction</string>
+      <string>Run PseudoProgression Estimation</string>
      </property>
     </widget>
    </item>
