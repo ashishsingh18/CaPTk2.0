@@ -1,5 +1,5 @@
-#ifndef upenn_cbica_captk_survival_Activator_h
-#define upenn_cbica_captk_survival_Activator_h
+#ifndef _upenn_cbica_captk_pseudoprogression_Activator_h
+#define _upenn_cbica_captk_pseudoprogression_Activator_h
 
 #include <ctkPluginActivator.h>
 
@@ -22,4 +22,4 @@ namespace mitk
   };
 }
 
-#endif // ! upenn_cbica_captk_survival_Activator_h
+#endif // ! _upenn_cbica_captk_pseudoprogression_Activator_h

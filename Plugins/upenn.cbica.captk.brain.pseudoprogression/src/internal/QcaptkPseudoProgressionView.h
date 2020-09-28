@@ -1,5 +1,5 @@
-#ifndef _QcaptkPseudoProgressionView
-#define _QcaptkPseudoProgressionView
+#ifndef _QcaptkPseudoProgressionView_h
+#define _QcaptkPseudoProgressionView_h
 
 #include <QmitkAbstractView.h>
 

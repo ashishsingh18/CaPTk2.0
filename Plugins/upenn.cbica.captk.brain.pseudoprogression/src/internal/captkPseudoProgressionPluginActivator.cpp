@@ -1,13 +1,12 @@
 #include "captkPseudoProgressionPluginActivator.h"
 
 #include "QcaptkPseudoProgressionView.h"
-// #include "SegmentationUtilities/QmitkMultiLabelSegmentationUtilitiesView.h"
 
 #include <usModuleInitialization.h>
 
 ctkPluginContext* mitk::PluginActivator::m_Context = nullptr;
 
-US_INITIALIZE_MODULE //("CaPTkSurvival", "libupenn_cbica_captk_brain_survival")
+US_INITIALIZE_MODULE 
 
 void mitk::PluginActivator::start(ctkPluginContext *context)
 {
