@@ -12,4 +12,5 @@ set(MITK_PLUGINS
   upenn.cbica.captk.brain.survival:ON
   upenn.cbica.captk.example:OFF
   upenn.cbica.captk.common:ON
+  upenn.cbica.captk.brain.pseudoprogression:ON
 )
