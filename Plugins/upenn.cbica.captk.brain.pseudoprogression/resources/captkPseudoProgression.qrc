@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/captkpseudoprogression" >
+  	<file>pseudoprogression_icon.svg</file>
+  </qresource>
+</RCC>

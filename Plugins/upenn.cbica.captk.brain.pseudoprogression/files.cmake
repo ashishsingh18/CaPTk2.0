@@ -19,7 +19,7 @@ set(MOC_H_FILES
 )
 
 set(CACHED_RESOURCE_FILES
-  resources/icon.svg
+  resources/pseudoprogression_icon.svg
   plugin.xml
 )
 
