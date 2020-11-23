@@ -110,14 +110,13 @@ void QcaptkPseudoProgressionView::CreateQtPartControl(QWidget *parent)
 
   // Set model information
   m_Controls.label_PaperInformation->setWordWrap(true);
-  QString modelInfo = ("This is a model trained on de novo glioblastoma cases.<br>"
-                       "Please note that this model was created following certain assumptions<br>"
-                       "(described in the paper below)<br>"
-                       "It can be used for research purposes only.<br><br>"
-                       "L.Macyszyn, et al. Imaging Patterns Predict Patient Survival and Molecular<br>"
-                       "Subtype in Glioblastoma via Machine Learning Techniques, Neuro-Oncology.<br>"
-                       "18(3) : 417-425, 2016.<br><br>"
-                       "<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4767233\" style=\"color:red\">[LINK]</a>");
+  QString modelInfo = ("This is a model trained on de novo glioblastoma cases. \
+	  Please note that this model was created following certain assumptions \
+	  (described in the paper below). \
+	  It can be used for research purposes only.<br><br>"
+	  "H.Akbari, et al. Quantitative radiomics and machine learning to distinguish \
+	   true progression from pseudoprogression in patients with GBM, \
+	  ASNR 56th Annual Meeting, 2018.");
   m_Controls.label_PaperInformation->setText(modelInfo);
   m_Controls.label_PaperInformation->setTextFormat(Qt::RichText);
   m_Controls.label_PaperInformation->setTextInteractionFlags(Qt::TextBrowserInteraction);
