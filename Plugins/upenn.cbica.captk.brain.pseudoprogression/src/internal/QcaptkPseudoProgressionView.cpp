@@ -306,7 +306,7 @@ void QcaptkPseudoProgressionView::OnRunButtonPressed()
 
   }
   m_Controls.pushButtonRun->setDisabled(true);
-  m_Controls.pushButtonRun->setText("Running Survival Prediction...");
+  m_Controls.pushButtonRun->setText("Running PseudoProgression ...");
 //  m_CaPTkSurvival->Run(
 //   modelDirPath,
 //   subjectDirPath,
